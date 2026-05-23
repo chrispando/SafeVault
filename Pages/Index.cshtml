@@ -1,0 +1,24 @@
+﻿@page
+@model IndexModel
+@{
+    ViewData["Title"] = "Home page";
+}
+
+<div class="text-center">
+   <form method="post">
+    <div asp-validation-summary="All" class="text-danger"></div>
+
+    <label for="username">Username:</label>
+    <input type="text" id="username" name="Username" />
+
+    <label for="email">Email:</label>
+    <input type="email" id="email" name="Email" />
+
+    <button type="submit">Submit</button>
+</form>
+</div>
+
+@if (!string.IsNullOrEmpty(Model.Message))
+{
+    <p>@Model.Message</p>
+}

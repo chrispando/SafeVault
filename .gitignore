@@ -1,0 +1,103 @@
+# Build results
+[Bb]in/
+[Oo]bj/
+[Dd]ebug/
+[Rr]elease/
+x64/
+x86/
+[Aa][Rr][Mm]/
+[Aa][Rr][Mm]64/
+
+# .NET publish output
+publish/
+*.publishsettings
+
+# Visual Studio / VS Code
+.vs/
+.vscode/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Rider / JetBrains
+.idea/
+*.sln.iml
+
+# Logs
+*.log
+logs/
+
+# Test results
+TestResults/
+*.trx
+*.coverage
+*.coveragexml
+coverage/
+coverage.cobertura.xml
+
+# NuGet
+*.nupkg
+*.snupkg
+packages/
+.nuget/
+project.lock.json
+project.assets.json
+
+# ASP.NET / Razor generated files
+*.GeneratedMSBuildEditorConfig.editorconfig
+*.AssemblyInfo.cs
+*.AssemblyAttributes.cs
+
+# EF Core temporary / compiled output
+#Migrations/*Designer.cs
+# Keep actual migration files tracked. Only ignore generated designer files if you want less noise.
+# If your instructor wants full migrations submitted, remove the line above.
+
+# User secrets / local config
+secrets.json
+appsettings.Local.json
+appsettings.*.local.json
+
+# Do NOT commit real passwords or production connection strings.
+# Usually keep appsettings.json only if it has safe placeholder values.
+# Uncomment this if your appsettings.json contains real secrets:
+# appsettings.json
+
+# Environment files
+.env
+.env.*
+!.env.example
+
+# Database files / local data
+*.db
+*.sqlite
+*.sqlite3
+*.bak
+*.sql.bak
+*.dump
+
+# MySQL Workbench / database exports
+*.mwb.bak
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Temporary files
+*.tmp
+*.temp
+*.cache
+*.swp
+*.swo
+
+# Node/frontend artifacts if added later
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+package-lock.json
+
+# Code generation artifacts
+ScaffoldingReadMe.txt
